@@ -26,3 +26,12 @@
 
 11_ DELETE Record FROM students WHERE name = "Layal";
 
+12_ CREATE TABLE newtable AS
+        SELECT employees.name, companies.Date
+        FROM employees JOIN companies
+        On employees.Company = companies.name;
+
+13_ SELECT * FROM employees WHERE Date < 2000;
+
+14_ SELECT * FROM Company WHERE Role = "graphic designer";
+
