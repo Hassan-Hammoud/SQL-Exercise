@@ -35,3 +35,12 @@
 
 14_ SELECT * FROM Company WHERE Role = "graphic designer";
 
+15_ SELECT name FROm students WHERE Points = (SELECT Max(Points) FROM students);
+
+16_ SELECT AVG(Points) FROM students;
+
+17_ SELECT COUNT(1) FROM students WHERE Points = 500;
+
+18_ SELECT * FROM students WHERE name LIKE "%s%";
+
+19_ SELECT * FROM students ORDER By Points DESC;
